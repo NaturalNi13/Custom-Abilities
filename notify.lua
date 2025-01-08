@@ -25,7 +25,7 @@ local function showCustomNotification(title, text, duration)
     titleLabel.Size = UDim2.new(1, -20, 0, 30) -- Fit within the frame
     titleLabel.Position = UDim2.new(0, 10, 0, 5)
     titleLabel.Font = Enum.Font.SourceSansBold
-    titleLabel.TextSize = 20
+    titleLabel.TextSize = 13
     titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     titleLabel.BackgroundTransparency = 1
     titleLabel.TextXAlignment = Enum.TextXAlignment.Left
