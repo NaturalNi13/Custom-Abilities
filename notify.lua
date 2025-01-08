@@ -68,4 +68,4 @@ local function showCustomNotification(title, text, duration)
 end
 
 -- Example usage
-showCustomNotification("Nat's Custom Abilities REWORKED 1.1", "Custom Abilities Enabled! Only execute this script once or it'll break!", 8)
+showCustomNotification("Nat's Custom Abilities REWORKED 1.2", "Custom Abilities Enabled! Only execute this script once or it'll break!", 8)
