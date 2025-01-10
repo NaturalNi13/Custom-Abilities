@@ -4,5 +4,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Ab
 --Abilities
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/cglide.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/slevitate.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/giaction.lua'))()
 
 --Fuck you john cena you ain't stealing my abilities anymore
