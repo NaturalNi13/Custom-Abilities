@@ -66,6 +66,8 @@ local function showCustomNotification(title, text, duration)
     wait(0.5)
     screenGui:Destroy()
 end
-
--- Example usage
-showCustomNotification("Nat's Custom Abilities REWORKED 1.32", "Custom Abilities Enabled! Only execute this script once or it'll break!", 8)
+if game.PrivateServerId ~= "" then
+    showCustomNotification("Nat's Custom Abilities REWORKED 1.32", "Custom Abilities Enabled! Only execute this script once or it'll break!", 8)
+else
+    showCustomNotification("Nat's Custom Abilities REWORKED 1.32", "Script failed to load: You are not in a private server!", 8)
+end
