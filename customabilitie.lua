@@ -2,7 +2,7 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/notify.lua'))()
 
 --Abilities
-if game.PrivateServerId ~= "" then
+if game:GetService("Players").LocalPlayer.PlayerGui.vipConsole then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/cglide.lua'))()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/slevitate.lua'))()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/NaturalNi13/Custom-Abilities/refs/heads/main/giaction.lua'))()
