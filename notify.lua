@@ -66,8 +66,9 @@ local function showCustomNotification(title, text, duration)
     wait(0.5)
     screenGui:Destroy()
 end
-if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("vipConsole") then
+local error = game.Players.doesUserExist
+if not error then
     showCustomNotification("Nat's Custom Abilities REWORKED 1.32", "Custom Abilities Enabled! Only execute this script once or it'll break!", 8)
 else
-    showCustomNotification("Nat's Custom Abilities REWORKED 1.32", "Script failed to load: You are not in a TD 1.3 private server!", 8)
+    showCustomNotification("Nat's Custom Abilities REWORKED 1.32", "Script failed to load: Unknown Error", 8)
 end
